@@ -1,1 +1,35 @@
-@import "tailwindcss"
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+/* share style */
+.bg-1{
+    background-color: #1A0B2E;
+}
+
+
+/* //navbar style */
+nav{
+    max-width: 100rem;
+    height: 92px;
+}
+.nav-title{
+    font-weight: 700;
+}
+.nav-title-gradient{
+    background: linear-gradient(to bottom, #a10cf7, #ee9209);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-btn{
+    background:linear-gradient(45deg, #ee7009, #d20ba7);
+}
