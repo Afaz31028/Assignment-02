@@ -40,13 +40,13 @@
             </div>
         </nav>
         <hr class="text-gray-600">
-        <div class="hero-container w-full h-116.5 bg-[url('assets/hero-bg.png')] bg-no-repeat bg-contain lg:max-w-400 lg:h-190 lg:bg-cover relative z-1">
+        <div class="hero-container max-w-full h-116.5 bg-[url('assets/hero-bg.png')] bg-no-repeat bg-center lg:max-w-400 lg:bg-position-[0] lg:h-190 bg-cover relative z-1">
             <div
-                class="hero-badge absolute left-57.5 right-25 lg:top-28.5 lg:left-219.25 lg:right-162 z-2 lg:w-[75px] lg:h-[38px] rounded-4xl px-4 py-2 bg-green-500 flex justify-center items-center">
+                class="hero-badge absolute left-62.5 right-30 top-11 lg:top-28.5 lg:left-219.25 lg:right-162 z-2 w-[70px] h-[35px] lg:w-[75px] lg:h-[38px] rounded-4xl px-4 py-2 bg-green-500 flex justify-center items-center">
                 <button>New</button>
             </div>
-            <div class="hero-img bg-[url('assets/hero-circle.png')] bg-no-repeat bg-contain bg-center absolute w-50 h-50 left-30 right-30 lg:w-87.5 lg:h-87.5  lg:left-156.25 lg:right-156.25 lg:top-25.25 flex justify-center items-center ">
-                <img class="w-20 h-20" src="assets/microphone.png" alt="">
+            <div class="hero-img bg-[url('assets/hero-circle.png')] bg-no-repeat bg-contain bg-center absolute w-50 h-50 left-30 right-30 top-10 lg:w-87.5 lg:h-87.5 lg:left-156.25 lg:right-156.25 lg:top-25.25 flex justify-center items-center ">
+                <img class="w-20 h-20 lg:w-40 lg:h-40" src="assets/microphone.png" alt="">
             </div>
             <div class="hero-content m-auto w-full absolute top-66 lg:top-122 text-center">
                 <div class="hero-heading-container w-full m-auto inline-block">
@@ -54,7 +54,7 @@
                 </div>
                 <p class="text-base text-gray-300 mx-5">Your daily dose of tech insights, productivity hacks, and personal
                     growth</p>
-                <div class="hero-btn flex justify-center gap-5 mt-6">
+                <div class="hero-btn flex justify-center gap-3 lg:gap-5 mt-6">
                     <div class="btn-1 bg-[linear-gradient(45deg,#eed709,#e2055d,#8f08b1)] rounded-4xl flex justify-center items-center gap-2 border-0 px-4 py-3">
                         <img src="assets/apple-podcast.png" alt="">
                         <p>Listen on Spotify</p>
@@ -68,7 +68,7 @@
         </div>
     </div>
     <main>
-        <section id="about-container" class="max-w-full py-10 lg:max-w-400 bg-[#1A0B2E] lg:pb-20">
+        <section id="about-container" class="max-w-full py-10 px-5 lg:max-w-400 bg-[#1A0B2E] lg:pb-20">
             <div class="about-content w-full lg:w-4xl text-center m-auto lg:px-2.5 lg:py-12">
                 <div class="flex flex-col justify-center">
                     <h3 class="about-title text-[32px] lg:text-5xl font-semibold text-white mb-4">About the Podcast</h3>
@@ -99,9 +99,9 @@
                 </div>
             </div>
         </section>
-        <section class="bg-[#230E3D] text-white max-w-full lg:max-w-400 pb-10 lg:pb-30">
+        <section class="bg-[#230E3D] text-white max-w-full m-auto lg:max-w-400 pb-10 lg:pb-30">
             <h1 class="pt-10 px-2 lg:pt-20 text-center text-[30px] lg:text-5xl font-bold mb-4 lg:mb-10">Why Choose TechWave</h1>
-            <div class="activities-container max-w-full m-auto mx-5 grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-7 lg:max-w-[1200px]">
+            <div class="activities-container max-w-full mx-5 grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-7 lg:max-w-[1200px] lg:m-auto">
                 <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 bg-[#351165] col-span-1 row-span-1 lg:row-span-2">
                     <img class="mb-4 mt-16.75" src="assets/headphone.png" alt="" srcset="">
                     <h4 class="text-[22px] font-bold">Premium Audio Quality</h4>
@@ -109,18 +109,18 @@
                         equipment and expert audio engineering. Every episode is mastered for optimal listening across
                         all devices and platforms.</p>
                 </div>
-                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-2 row-span-1">
+                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-1 lg:col-span-2 row-span-1">
                     <img class="mb-4" src="assets/device.png" alt="">
                     <h4 class="text-2xl font-bold">Mobile Friendly</h4>
                     <p class="mt-4 text-gray-400">Listen on the go with seamless mobile experience and offline
                         downloads.</p>
                 </div>
-                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-2 row-span-1">
+                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-1 lg:col-span-2 row-span-1">
                     <img class="mb-4" src="assets/location.png" alt="">
                     <h4 class="text-2xl font-bold">Global Community</h4>
                     <p class="mt-4 text-gray-400">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
-                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-2 row-span-1">
+                <div class="activity-card hover:shadow-lg hover:shadow-white rounded-4xl p-10 pl-10 bg-[#351165] col-span-1 lg:col-span-2 row-span-1">
                     <img class="mb-4" src="assets/zap-fast.png" alt="">
                     <h4 class="text-2xl font-bold">Exclusive Interviews</h4>
                     <p class="mt-4 text-gray-400">Get unprecedented access to industry titans, startup founders, and
@@ -138,7 +138,7 @@
         <section class="bg-[#1A0B2E] text-white max-w-full lg:max-w-400 pt-10 pb-15 lg:pt-30 lg:pb-30">
             <h4 class="text-center text-[32px] lg:text-5xl font-bold mb-6 lg:mb-10">Featured Episodes</h4>
             <div class="feature-container max-w-[380px] lg:max-w-300 grid grid-cols-1 gap-4 lg:grid-cols-3 m-auto">
-                <div class="feature-card bg-[#230E3D] w-full lg:w-95 h-110 m-auto rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
+                <div class="feature-card bg-[#230E3D] w-[400px] lg:w-95 h-110 m-auto rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
                     <iframe src="https://www.youtube.com/embed/lq-sWRnYWKQ" width="380" height="214" frameborder="0"
                         allowfullscreen class="rounded-t-4xl"></iframe>
                     <div class="feature-content px-8">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="feature-card bg-[#230E3D] w-95 h-110 rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
+                <div class="feature-card bg-[#230E3D] lg:w-95 h-110 rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
                     <iframe src="https://www.youtube.com/embed/aNYEtGxjGVc" width="380" height="214" frameborder="0"
                         allowfullscreen class="rounded-t-4xl"></iframe>
                     <div class="feature-content px-8">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="feature-card bg-[#230E3D] w-95 h-110 rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
+                <div class="feature-card bg-[#230E3D] lg:w-95 h-110 rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
                     <iframe src="https://www.youtube.com/embed/NhcQuWNo-OM" width="380" height="214" frameborder="0"
                         allowfullscreen class="rounded-t-4xl"></iframe>
                     <div class="feature-content px-8">
@@ -180,13 +180,13 @@
                 </div>
             </div>
         </section>
-        <section class="contact-container w-full lg:max-w-400 bg-[#1A0B2E] text-white pb-10 lg:pb-30">
+        <section class="contact-container w-full lg:max-w-400 bg-[#1A0B2E] text-white pb-10 px-4 lg:pb-30">
             <h1 class="text-center text-5xl font-bold mb-10">Meet the Host</h1>
-            <div class="host-box max-w-300 m-auto flex flex-col lg:flex-row gap-6 bg-[#230E3D] px-10 rounded-4xl">
-                <div class="host-img w-50 m-auto lg:w-100 mt-10">
+            <div class="host-box max-w-300 m-auto flex flex-col lg:flex-row gap-6 bg-[#230E3D] px-10 py-5 rounded-4xl">
+                <div class="host-img w-50 m-auto lg:w-100 mt-6 lg:mt-10">
                     <img class="w-full rounded-full" src="assets/host.png" alt="">
                 </div>
-                <div class="host-des py-12 text-center lg:text-start">
+                <div class="host-des py-1 lg:py-12 text-center lg:text-start">
                     <h4 class="text-3xl font-bold mb-4">Alex Kumar</h4>
                     <p class="text-gray-400">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been
                         in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through
@@ -205,27 +205,29 @@
             </div>
         </section>
     </main>
-    <footer class="footer-conatiner bg-[url('assets/footer-bg.png')] w-full text-white max-w-400 h-103 bg-no-repeat bg-cover">
-        <img class="m-auto pt-30" src="assets/TechWave.png" alt="">
-        <div class="max-w-145 m-auto ml-128 flex justify-around mt-8">
+    <footer class="footer-conatiner bg-[url('assets/footer-bg.png')] max-w-full h-full lg:max-w-400 text-white lg:h-103 bg-no-repeat bg-cover bg-center lg:bg-cover">
+        <div class="footer-img pt-10 lg:pt-30 flex justify-center">
+            <img class="w-54.75 h-8 lg:w-102.5 lg:h-15" src="assets/TechWave.png" alt="">
+        </div>
+        <div class="max-w-63.75 lg:max-w-145 m-auto grid grid-cols-2 lg:ml-135 lg:mr-128 lg:flex lg:justify-between mt-8">
             <div class="flex gap-3">
-                <img src="assets/spotify.png" alt="">
+                <img class="w-6 h-6" src="assets/spotify.png" alt="">
                 <p class="text-gray-400">spotify</p>
             </div>
             <div class="flex gap-3">
-                <img src="assets/apple-podcast.png" alt="">
+                <img class="w-6 h-6" src="assets/apple-podcast.png" alt="">
                 <p class="text-gray-400">Apple Podcasts</p>
             </div>
             <div class="flex gap-3">
-                <img src="assets/youtube-podcast.png" alt="">
+                <img class="w-6 h-6" src="assets/youtube-podcast.png" alt="">
                 <p class="text-gray-400">YouTube</p>
             </div>
             <div class="flex gap-3">
-                <img src="assets/twitter.png" alt="">
+                <img class="w-6 h-6" src="assets/twitter.png" alt="">
                 <p class="text-gray-400">Twitter</p>
             </div>
         </div>
-        <p class="text-center mt-8 text-gray-400">© 2026 TechWave Podcast. All rights reserved.</p>
+        <p class="text-center mt-8 text-gray-400 pb-5">© 2026 TechWave Podcast. All rights reserved.</p>
     </footer>
 </body>
 </html>
