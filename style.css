@@ -1,93 +1,10 @@
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
-/* share style */
-.bg-1{
-    background-color: #1A0B2E;
-}
-.bg-2{
-    background-color: #230E3D;
-}
-.bg-3{
-    background-color: #351165;
-}
-/* //navbar style */
-.nav-title{
-    font-weight: 700;
-}
-nav ul li a{
-    font-weight: 300;
-}
-.nav-btn, .btn-1{
-    background:linear-gradient(to right, #ee7009, #8f08b1);
-}
-
-/* //Style Hero section  */
-.hero-container{
-    max-width: 100rem;
-    height: 760px;
-    background-image: url('assets/hero-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-}
-.hero-img{
-    width: 350px;
-    height: 350px;
-    background-image: url('assets/hero-circle.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    position: absolute;
-    left: 625px;
-    right: 625px;
-    top: 101px;
-}
-.hero-content h1{
-    font-weight: 800;
-}
-.btn-1, .btn-2{
-    padding: 12px 20px;
-}
-.btn-2{
-    border: 2px solid green;
-}
-.about-title{
-    font-weight: 600;
-}
-.footer-conatiner{
-    max-width: 100rem;
-    height: 412px;
-    background-image: url('assets/footer-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* //Style Activity portion  */
-
-.activity-card:hover{
-    box-shadow: 4px 4px 8px white;
-}
-
-
 /* //Animation */
-.hero-heading-container{
-    margin: 0 auto;
-    display: inline-block;
-}
 .hero-title{
-    margin: 0 auto;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
     animation: flow 4s steps(10) infinite forwards;
 }
-
 @keyframes flow {
     from{
         width: 0;
@@ -97,8 +14,5 @@ nav ul li a{
     }
 }
 .feature-card:hover{
-    /* width: 90%; */
     transform: translate(10px);
-    border: 2px solid white;
-    overflow: hidden;
 }
