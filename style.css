@@ -67,3 +67,38 @@ nav ul li a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* //Style Activity portion  */
+
+.activity-card:hover{
+    box-shadow: 4px 4px 8px white;
+}
+
+
+/* //Animation */
+.hero-heading-container{
+    margin: 0 auto;
+    display: inline-block;
+}
+.hero-title{
+    margin: 0 auto;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: flow 4s steps(10) infinite forwards;
+}
+
+@keyframes flow {
+    from{
+        width: 0;
+    }
+    to{
+        width: 10ch;
+    }
+}
+.feature-card:hover{
+    /* width: 90%; */
+    transform: translate(10px);
+    border: 2px solid white;
+    overflow: hidden;
+}
