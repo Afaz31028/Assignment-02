@@ -1,18 +1,24 @@
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
+
 /* //Animation */
-.hero-title{
+.hero-title {
     animation: flow 4s steps(10) infinite forwards;
 }
-@keyframes flow {
-    from{
-        width: 0;
+
+@media screen and (min-width: 992px) {
+    @keyframes flow {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 10ch;
+        }
     }
-    to{
-        width: 10ch;
+
+    .feature-card:hover {
+        transform: translate(10px);
     }
-}
-.feature-card:hover{
-    transform: translate(10px);
 }
