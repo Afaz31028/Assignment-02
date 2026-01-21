@@ -20,18 +20,18 @@
 
 <body class="open-sans-font">
     <div class="header bg-[#1A0B2E] text-white">
-        <nav class="max-w-full h-15 lg:w-400 lg:h-23 flex justify-around lg:items-center p-5">
+        <nav class="max-w-full h-15 lg:w-400 lg:h-23 flex justify-between lg:justify-around lg:items-center p-5">
             <div class="nav-logo flex w-34.25 lg:w-54.75">
                 <img src="assets/TechWave-nav.png" alt="" srcset="">
             </div>
             <div class="humbarger h-6 lg:hidden">
-                <img src="assets/hamburger-menu.png" alt="">
+                <a href="humburger.html"><img src="assets/hamburger-menu.png" alt=""></a>
             </div>
             <div class="hidden lg:block lg:nav-menu">
                 <ul class="flex gap-8">
-                    <li class="list-none"><a class="decoration-0 text-base" href="#">About</a></li>
-                    <li class="list-none"><a href="#">Episodes</a></li>
-                    <li class="list-none"><a href="#">Hosts</a></li>
+                    <li class="list-none"><a class="decoration-0 text-base" href="#about-container">About</a></li>
+                    <li class="list-none"><a href="#episodes">Episodes</a></li>
+                    <li class="list-none"><a href="#host">Hosts</a></li>
                 </ul>
             </div>
             <div class="hidden lg:bg-[linear-gradient(45deg,#eed709,#e2055d,#8f08b1)] lg:nav-btn lg:rounded-4xl lg:pl-4 lg:w-33 lg:h-11 lg:pr-1 lg:py-3 lg:flex lg:gap-2 lg:justify-center lg:items-center">
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <hr class="hor-line w-[90%] lg:w-4xl  text-gray-700 m-auto mb-10 lg:mb-20">
-            <div class="about-cards max- lg:max-w-7xl text-white grid grid-cols-2 lg:grid-cols-4 m-auto">
+            <div class="about-cards max- lg:max-w-7xl text-white grid grid-cols-2 gap-5 lg:gap-0 lg:grid-cols-4 m-auto">
                 <div class="card w-[240] h-[94] text-center flex flex-col justify-center items-center">
                     <h3 class="text-green-400 text-5xl font-black mb-3">150K+</h3>
                     <p class=" text-gray-300">Monthly Listeners</p>
@@ -135,10 +135,10 @@
                 </div>
             </div>
         </section>
-        <section class="bg-[#1A0B2E] text-white max-w-full lg:max-w-400 pt-10 pb-15 lg:pt-30 lg:pb-30">
+        <section id="episodes" class="bg-[#1A0B2E] text-white max-w-full lg:max-w-400 pt-10 pb-15 lg:pt-30 lg:pb-30">
             <h4 class="text-center text-[32px] lg:text-5xl font-bold mb-6 lg:mb-10">Featured Episodes</h4>
-            <div class="feature-container max-w-[380px] lg:max-w-300 grid grid-cols-1 gap-4 lg:grid-cols-3 m-auto">
-                <div class="feature-card bg-[#230E3D] w-[400px] lg:w-95 h-110 m-auto rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
+            <div class="feature-container max-w-full lg:max-w-300 grid grid-cols-1 gap-4 lg:grid-cols-3 lg:m-auto m-5">
+                <div class="feature-card bg-[#230E3D] w-[380px] lg:w-95 h-110 m-auto rounded-4xl hover:border-2 hover:border-white hover:overflow-hidden">
                     <iframe src="https://www.youtube.com/embed/lq-sWRnYWKQ" width="380" height="214" frameborder="0"
                         allowfullscreen class="rounded-t-4xl"></iframe>
                     <div class="feature-content px-8">
@@ -180,8 +180,8 @@
                 </div>
             </div>
         </section>
-        <section class="contact-container w-full lg:max-w-400 bg-[#1A0B2E] text-white pb-10 px-4 lg:pb-30">
-            <h1 class="text-center text-5xl font-bold mb-10">Meet the Host</h1>
+        <section id="host" class="contact-container w-full lg:max-w-400 bg-[#1A0B2E] text-white pb-10 px-4 lg:pb-30">
+            <h1 class="text-center text-5xl font-bold mb-10 pt-5">Meet the Host</h1>
             <div class="host-box max-w-300 m-auto flex flex-col lg:flex-row gap-6 bg-[#230E3D] px-10 py-5 rounded-4xl">
                 <div class="host-img w-50 m-auto lg:w-100 mt-6 lg:mt-10">
                     <img class="w-full rounded-full" src="assets/host.png" alt="">
